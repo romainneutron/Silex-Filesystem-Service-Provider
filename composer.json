@@ -1,0 +1,28 @@
+{
+    "name": "neutron/silex-filesystem-provider",
+    "type": "library",
+    "description": "",
+    "keywords": [""],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Romain Neutron",
+        "email": "imprec@gmail.com",
+        "homepage": "http://www.lickmychip.com/"
+    }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": ">=1.0",
+        "symfony/filesystem": ">=2.0"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "fabpot/php-cs-fixer": "master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Neutron": "src"
+        }
+    }
+}
