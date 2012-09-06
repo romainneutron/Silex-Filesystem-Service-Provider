@@ -1,11 +1,11 @@
 #Silex Filesystem Service Provider
 
-This is a (Silex Service Provider)[http://silex.sensiolabs.org/doc/providers.html]
-for Symfony (Filesystem Component)[http://symfony.com/doc/master/components/filesystem.html].
+This is a [Silex Service Provider](http://silex.sensiolabs.org/doc/providers.html)
+for Symfony [Filesystem Component](http://symfony.com/doc/master/components/filesystem.html).
 
 ##Installation
 
-Add it using (composer)[http://getcomposer.org/] :
+Add it using [composer](http://getcomposer.org/) :
 
 ```json
 {
