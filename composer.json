@@ -1,8 +1,8 @@
 {
     "name": "neutron/silex-filesystem-provider",
     "type": "library",
-    "description": "",
-    "keywords": [""],
+    "description": "A Silex Provider for Symfony Filesystem component",
+    "keywords": ["silex", "filesystem", "temporary-filesystem"],
     "license": "MIT",
     "authors": [
     {
@@ -17,9 +17,6 @@
         "symfony/filesystem": ">=2.0"
     },
     "minimum-stability": "dev",
-    "require-dev": {
-        "fabpot/php-cs-fixer": "master"
-    },
     "autoload": {
         "psr-0": {
             "Neutron": "src"
