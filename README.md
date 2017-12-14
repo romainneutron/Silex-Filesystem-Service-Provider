@@ -5,7 +5,7 @@
 This is a [Silex Service Provider](http://silex.sensiolabs.org/doc/providers.html)
 for Symfony [Filesystem Component](http://symfony.com/doc/master/components/filesystem.html).
 
-##Installation
+## Installation
 
 Add it using [composer](http://getcomposer.org/) :
 
@@ -17,7 +17,7 @@ Add it using [composer](http://getcomposer.org/) :
 }
 ```
 
-##Usage
+## Usage
 
 ```php
 use Silex\Application;
@@ -33,9 +33,9 @@ if (!$app['filesystem']->exists('any-absolute-or-relative-path...')) {
 }
 ```
 
-###Informations
-Read more informations about the [Symfony2 Filesystem Component](http://symfony.com/doc/current/components/filesystem.html)
+### Information
+Read more information about the [Symfony Filesystem Component](http://symfony.com/doc/current/components/filesystem.html)
 
-##License
+## License
 
 This is released under the MIT license
